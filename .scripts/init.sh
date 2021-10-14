@@ -66,7 +66,7 @@ t1 = BashOperator(
     dag=dag
 )
 
-t1""" > dag/sample.py
+t1""" > dags/sample.py
 
 ### Start Airflow
 airflow webserver --port $port --daemon & airflow scheduler
